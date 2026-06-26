@@ -1,0 +1,12 @@
+"""
+conftest.py — pytest configuration.
+
+Its mere presence in the project root puts the root on Python's import path,
+so tests in tests/ can `from app import app`. No code needed beyond this.
+"""
+
+import os
+import sys
+
+# Add the project root (this file's directory) to the import path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

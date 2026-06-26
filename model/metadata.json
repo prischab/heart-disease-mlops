@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "n_features": 13,
+  "target_column": "target",
+  "classes": {
+    "0": "no disease",
+    "1": "disease"
+  },
+  "test_accuracy": 0.9854
+}

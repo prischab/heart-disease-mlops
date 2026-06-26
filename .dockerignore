@@ -1,0 +1,11 @@
+# Keep these out of the Docker image — they're not needed to run the app
+# and they make the image bigger / slower to build.
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+data/
+.git/
+.gitignore
+conftest.py
+README.md

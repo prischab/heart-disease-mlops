@@ -1,0 +1,7 @@
+[
+  "tests/test_app.py::test_health_ok",
+  "tests/test_app.py::test_predict_missing_field_rejected",
+  "tests/test_app.py::test_predict_valid_input",
+  "tests/test_app.py::test_predict_wrong_type_rejected",
+  "tests/test_app.py::test_root_responds"
+]
